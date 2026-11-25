@@ -45,12 +45,11 @@ SECRET PHRASE (must appear on the app page): ISOM5160-HW2-SMS
 #     legitimate SMS, such as a bank or one-time code message) versus a
 #     false negative (missing a spam or scam-like message).
 #   YOUR_ANSWER: My app achieved 99.00% accuracy on the 100-sample test.
-#   However, accuracy alone is not enough for a business to rely on this app,
-#   because it does not distinguish the costs of different types of errors.
-#   False positives could block legitimate bank messages or one-time codes,
-#   while false negatives could expose users to spam or scams.
-#   Therefore, the app should support initial screening rather than serve
-#   as the sole basis for automatically blocking messages.
+#   Accuracy alone is insufficient because errors have different business costs.
+#   False positives could block bank messages or one-time codes, while false
+#   negatives could expose users to spam or scams.
+#   The app should therefore support initial screening rather than automatically
+#   block messages on its own.
 # =============================================================================
 
 import streamlit as st
